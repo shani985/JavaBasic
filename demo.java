@@ -1,0 +1,34 @@
+import java.util.Scanner:
+class m
+{
+	void show()
+	{
+		int n,count=0;
+		Scanner Sc=new Scanner(System.in);	
+		System.out.println("enter the number of range ");
+		n=Sc.nextInt();
+		for(int i=1;i<=n;i++)
+		{
+			if(n%i==0)
+			{
+				Systm.out.print("\t"+i);
+				count ++;
+			}
+			else
+			{
+				Systm.out.print("\t"+i);
+				count ++;
+			}
+
+		}
+}
+class test
+{
+	public static void main(String []args)
+	{
+		
+		m r=new m();
+		r.show();
+	}
+	
+}
